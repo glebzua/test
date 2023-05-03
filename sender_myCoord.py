@@ -112,7 +112,6 @@ BoxLayout:
         size_hint_x: 1
         size_hint_y: 0.12
 
-
         MDTextField:
             id: view_angle
             text: "0"
@@ -147,8 +146,6 @@ BoxLayout:
             on_press: app.send_angle_from_ground_command()
 """
 video_widget_size = [0, 0]
-
-
 
 class MainApp(MDApp):
     def __init__(self, **kwargs):
