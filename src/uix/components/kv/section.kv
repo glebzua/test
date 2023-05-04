@@ -1,0 +1,48 @@
+<Section>
+    size_hint_y: 0.8
+    #label_bg_color: self.md_bg_color
+    #label_text_color: 1, 1, 1, 1
+    #card_bg_color: self.md_bg_color
+
+    MDCard:
+        id: card
+        size_hint: 1, 1
+        radius: dp(32)
+        elevation: 18
+
+    MDCard:
+        id: card_label
+        size_hint: None, None
+        height: "56dp"
+        width: card.width * 0.8
+        radius: dp(28)
+        x: card.width / 2 - self.width / 2
+        y: card.height - self.height / 2
+        elevation: 18
+        md_bg_color: root.label_bg_color
+        MDBoxLayout:
+            id: label_container
+            padding: [0, 0, dp(15), 0]
+            MDIconButton:
+                icon: "chevron-left"
+                theme_text_color: "Custom"
+                halign: "left"
+                text_color: root.label_text_color
+                pos_hint: {'right': .20, 'center_y': .5}
+                on_release: root.callback()
+
+            MDLabel:
+                text: root.text
+                theme_text_color: "Custom"
+                text_color: root.label_text_color
+                halign: "left"
+                bold: True
+                size_hint_x: None
+                width: label_container.width*0.5
+
+            MDIcon:
+                icon: root.icon
+                halign: "right"
+                theme_text_color: "Custom"
+                text_color: root.label_text_color
+                mipmap: True

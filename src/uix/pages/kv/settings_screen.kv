@@ -1,0 +1,140 @@
+#:import Section uix.components.section
+#:import TextTermsPolicy uix.components.text_terms_policy
+#:import app_content_strings uix.constants.app_content_strings
+#:import FlexibleOneLineAvatarListItem uix.base_components.flexible_one_line_avatar_list_item
+
+
+<SettingsScreen>
+    FitImage:
+        size_hint: None, None
+        size: root.size
+        source: "assets/images/background.jpg"
+        allow_stretch: True
+
+    MDBoxLayout:
+        orientation: "vertical"
+        spacing: dp(40)
+        padding: [root.width*0.1, root.height*0.1, root.width*0.1, root.height*0.05]
+
+        Section:
+            id: settings_container
+            text: app.i18n._("SECTION_SETTINGS")
+            size_hint_y: 0.3
+            size_hint_x: None
+            width: self.parent.width * 0.8
+            label_bg_color: 171/255, 75/255, 0/255, 1
+            callback: root.to_home
+            icon: "menu"
+            MDBoxLayout:
+                orientation: "vertical"
+                spacing: dp(2)
+                padding: [dp(25), dp(35), dp(25), dp(15)]
+
+                MDBoxLayout:
+                    id: sound_container
+                    orientation: "horizontal"
+                    height: dp(30)
+                    MDLabel:
+                        valign: "center"
+                        halign: "left"
+                        text: app.i18n._("ENABLE_SOUNDS")
+
+                    MDSwitch:
+                        id: sound_switch
+                        widget_style: "ios"
+                        pos: self.pos[0], sound_container.pos[1] - dp(10)
+                        active: True
+                        on_active: root.toggle_sounds()
+
+                MDBoxLayout:
+                    id: dark_theme_container
+                    orientation: "horizontal"
+                    height: dp(30)
+                    MDLabel:
+                        valign: "center"
+                        halign: "left"
+                        text: app.i18n._("ENABLE_DARK_THEME")
+                    MDSwitch:
+                        widget_style: "ios"
+                        pos: self.pos[0], dark_theme_container.pos[1] - dp(10)
+                        active: root.theme_dark_on
+                        on_active: root.toggle_dark_theme(app)
+
+                MDBoxLayout:
+                    orientation: "horizontal"
+                    height: dp(30)
+                    MDLabel:
+                        valign: "center"
+                        halign: "left"
+                        text: app.i18n._("CHOOSE_LANGUAGE")
+                    MDBoxLayout:
+                        id: languages_container
+                        spacing: dp(10)
+                        valign: "center"
+                        adaptive_size: True
+                        MDIconButton:
+                            id: lang_en
+                            icon: "assets/images/languages/english.png"
+                            user_font_size: "3sp"
+                            on_release: root.set_lang("en", self)
+                        MDIconButton:
+                            id: lang_it
+                            icon: "assets/images/languages/italian.png"
+                            user_font_size: "3sp"
+                            on_release: root.set_lang("it", self)
+
+        Section:
+            id: tutorial_section
+            text: app.i18n._("SECTION_TUTORIAL")
+            size_hint_y: 0.60
+            size_hint_x: None
+            width: self.parent.width * 0.8
+            callback: root.to_home
+            icon: "message-question-outline"
+            label_bg_color: 26/255, 28/255, 31/255, 1
+
+            MDBoxLayout:
+                orientation: "vertical"
+                spacing: 0
+                padding: [dp(0), dp(35), dp(0), dp(0)]
+
+                FlexibleOneLineAvatarListItem:
+                    on_release: root.open_how_to_play_dialog(app.i18n._("TUTORIAL_GOAL_TITLE"), app.i18n._("TUTORIAL_GOAL_DESC"))
+                    text: app.i18n._("TUTORIAL_GOAL_TITLE")
+                    icon: "plus-circle"
+                MDSeparator:
+                FlexibleOneLineAvatarListItem:
+                    on_release: root.open_how_to_play_dialog(app.i18n._("TUTORIAL_ROLE_TITLE"), app.i18n._("TUTORIAL_ROLE_DESC"))
+                    text: app.i18n._("TUTORIAL_ROLE_TITLE")
+                    icon: "plus-circle"
+                MDSeparator:
+                FlexibleOneLineAvatarListItem:
+                    on_release: root.open_how_to_play_dialog(app.i18n._("TUTORIAL_JUMPS_TITLE"), app.i18n._("TUTORIAL_JUMPS_DESC"))
+                    text: app.i18n._("TUTORIAL_JUMPS_TITLE")
+                    icon: "plus-circle"
+                MDSeparator:
+                FlexibleOneLineAvatarListItem:
+                    on_release: root.open_how_to_play_dialog(app.i18n._("TUTORIAL_WRONG_TITLE"), app.i18n._("TUTORIAL_WRONG_DESC"))
+                    text: app.i18n._("TUTORIAL_WRONG_TITLE")
+                    icon: "plus-circle"
+                MDSeparator:
+                FlexibleOneLineAvatarListItem:
+                    on_release: root.open_how_to_play_dialog(app.i18n._("TUTORIAL_WINNER_TITLE"), app.i18n._("TUTORIAL_WINNER_DESC"))
+                    text: app.i18n._("TUTORIAL_WINNER_TITLE")
+                    icon: "plus-circle"
+                    radius: [dp(0), dp(0), dp(32), dp(32)]
+                
+        MDCard:
+            radius: [dp(20), dp(20), dp(20), dp(20)]
+            size_hint_y: 0.125
+            size_hint_x: None
+            width: self.parent.width * 0.8
+            ripple_behavior: True
+            on_release: root.open_terms_and_policy_dialog()
+            MDRelativeLayout:
+                MDLabel:
+                    pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                    halign: "center"
+                    text: app.i18n._("TERMS_AND_POLICY_TITLE")
+
+

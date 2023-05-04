@@ -1,0 +1,120 @@
+#:import Timer uix.components.timer
+#:import GameCardContainer uix.components.game_card_container
+#:import KMDIconSquaredButton uix.base_components.kmd_icon_squared_button
+
+
+<GameScreen>
+
+    MDBoxLayout:
+        orientation: "vertical"
+        id: container
+        padding: [0, 0, 0, dp(20)]
+
+        MDBoxLayout:
+            size_hint_y: .20
+            orientation: "vertical"
+
+            MDBoxLayout:
+                MDCard:
+                    padding: dp(10)
+                    MDLabel:
+                        id: remaining_jumps
+                        text: "0"
+                        font_style: "H5"
+                        size_hint_x: None
+                        width: dp(40)
+                        halign: "right"
+                    MDIcon:
+                        size_hint_x: None
+                        width: dp(40)
+                        halign: "center"
+                        font_size: '20dp'
+                        icon: "redo"
+
+                    Timer:
+                        id: timer
+                        format: "%M:%S"
+                        font_style: "H4"
+                        halign: "center"
+                        bold: True
+                        last_seconds: 10
+                        on_finish: root.finish_round()
+                        on_last_seconds: root.clock_sound.play()
+
+                    MDIcon:
+                        size_hint_x: None
+                        width: dp(40)
+                        font_size: '20dp'
+                        icon: "checkbox-marked-circle-outline"
+                        halign: "center"
+                    MDLabel:
+                        id: player_points
+                        text: "0"
+                        size_hint_x: None
+                        width: dp(40)
+                        font_style: "H5"
+                        halign: "left"
+
+            MDRelativeLayout:
+                id: controls_buttons
+                MDCard:
+                    radius: [0, 0, dp(20), dp(20)]
+                    size_hint_x: 0.3
+                    pos_hint: {"center_x": .5, "center_y": .5}
+                    MDRelativeLayout:
+                        MDBoxLayout:
+                            spacing: dp(10)
+                            adaptive_size: True
+                            pos_hint: {"center_x": .5, "center_y": .5}
+                            MDIconButton:
+                                padding: dp(3)
+                                icon: "assets/images/icons/home.png"
+                                on_release: root.confirm_exit()
+
+                            MDIconButton:
+                                id: sound_button
+                                padding: dp(3)
+                                icon: "assets/images/icons/volume-off.png"
+                                on_release: root.toggle_sounds()
+
+        MDBoxLayout:
+            orientation: "vertical"
+            md_bg_color: 0, 0, 0, 0
+            MDBoxLayout:
+                GameCardContainer:
+                    id: card_container
+
+        MDRelativeLayout:
+            id: game_buttons
+            size_hint_y: 0.15
+            size_hint_x: 0.70
+            pos_hint: {"center_x": .5, "center_y": .5}
+            padding: dp(20)
+            MDCard:
+                radius: [dp(25), dp(25), dp(25), dp(25)]
+                padding: [dp(10), dp(10), dp(10), dp(10)]
+                pos_hint: {"center_x": .5, "center_y": .5}
+                MDRelativeLayout:
+                    MDBoxLayout:
+                        spacing: dp(20)
+                        adaptive_size: True
+                        pos_hint: {"center_x": .5, "center_y": .5}
+                        KMDIconSquaredButton:
+                            id: wrong_button
+                            icon: "close-thick"
+                            md_bg_color: app.theme_cls.error_color
+                            on_release: root.wrong_answer()
+
+                        KMDIconSquaredButton:
+                            id: jump_button
+                            icon: "redo"
+                            md_bg_color: 0.6, 0.6, 0.6, 1
+                            md_bg_color_disabled:  0.6, 0.6, 0.6, 1
+                            on_release: root.jump_request()
+
+                        KMDIconSquaredButton:
+                            id: right_button
+                            icon: "check-bold"
+                            md_bg_color: app.theme_cls.success_color
+                            on_release: root.right_answer()
+

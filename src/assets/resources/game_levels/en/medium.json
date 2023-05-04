@@ -1,0 +1,1752 @@
+{
+    "dinosaur": [
+        "big",
+        "animal",
+        "extinct",
+        "long ago",
+        "reptile"
+    ],
+    "japan": [
+        "country",
+        "asia",
+        "cherry blossom",
+        "sushi",
+        "tokyo"
+    ],
+    "new york": [
+        "city",
+        "america",
+        "big apple",
+        "statue of liberty",
+        "manhattan"
+    ],
+    "shanghai": [
+        "modern",
+        "big",
+        "china",
+        "expo",
+        "famous"
+    ],
+    "michael jackson": [
+        "dance",
+        "thriller",
+        "strange",
+        "famous",
+        "singer"
+    ],
+    "bench": [
+        "sit",
+        "wooden",
+        "chair",
+        "long",
+        "park"
+    ],
+    "ice cream": [
+        "cold",
+        "summer",
+        "sweet",
+        "snack",
+        "cone"
+    ],
+    "foreigner": [
+        "teacher",
+        "different",
+        "outside",
+        "country",
+        "travel"
+    ],
+    "boots": [
+        "winter",
+        "shoes",
+        "warm",
+        "fashion",
+        "snow"
+    ],
+    "plane ticket": [
+        "expensive",
+        "flight",
+        "travel",
+        "paper",
+        "seat"
+    ],
+    "turkey": [
+        "thanksgiving",
+        "country",
+        "pilgrims",
+        "gravy",
+        "mashed potatoes"
+    ],
+    "soy sauce": [
+        "chinese",
+        "liquid",
+        "brown",
+        "cooking",
+        "salty"
+    ],
+    "yoga teacher": [
+        "exercise",
+        "instructor",
+        "master",
+        "chinese",
+        "help"
+    ],
+    "carry": [
+        "hold",
+        "pick up",
+        "move",
+        "transport",
+        "support"
+    ],
+    "blossom": [
+        "flower",
+        "young",
+        "bud",
+        "spring",
+        "bloom"
+    ],
+    "broom": [
+        "sweep",
+        "floor",
+        "witch",
+        "wooden",
+        "dust"
+    ],
+    "parade": [
+        "line",
+        "crowd",
+        "floats",
+        "gather",
+        "holiday"
+    ],
+    "fashion": [
+        "clothes",
+        "model",
+        "girls",
+        "look",
+        "magazine"
+    ],
+    "wedding dress": [
+        "white",
+        "married",
+        "clothes",
+        "special",
+        "girls"
+    ],
+    "kung fu panda": [
+        "movie",
+        "china",
+        "noodles",
+        "children",
+        "famous"
+    ],
+    "marker": [
+        "draw",
+        "kids",
+        "crayola",
+        "writing instrument",
+        "art"
+    ],
+    "trash can": [
+        "rubbish",
+        "barrel",
+        "worthless",
+        "ruin",
+        "old"
+    ],
+    "snowman": [
+        "three",
+        "children",
+        "make",
+        "winter",
+        "outside"
+    ],
+    "wings": [
+        "bird",
+        "chicken",
+        "fly",
+        "arms",
+        "feathers"
+    ],
+    "jealousy": [
+        "envy",
+        "emotion",
+        "compare",
+        "green",
+        "achieve"
+    ],
+    "pilot": [
+        "fly",
+        "plane",
+        "helicopter",
+        "man",
+        "travel"
+    ],
+    "lawyer": [
+        "argue",
+        "defend",
+        "law",
+        "client",
+        "crime"
+    ],
+    "hair salon": [
+        "style",
+        "dye",
+        "wash",
+        "cut",
+        "barber"
+    ],
+    "picture frame": [
+        "photo",
+        "memory",
+        "wood",
+        "glass",
+        "home"
+    ],
+    "purse": [
+        "leather",
+        "bag",
+        "money",
+        "woman",
+        "carry"
+    ],
+    "makeup": [
+        "face",
+        "mascara",
+        "lipstick",
+        "girls",
+        "beautiful"
+    ],
+    "alligator": [
+        "crocodile",
+        "florida",
+        "green",
+        "animal",
+        "teeth"
+    ],
+    "worry": [
+        "nervous",
+        "anxiety",
+        "stress",
+        "scared",
+        "trouble"
+    ],
+    "moose": [
+        "animal",
+        "mammal",
+        "forest",
+        "antlers",
+        "hunting"
+    ],
+    "bridge": [
+        "cross",
+        "river",
+        "build",
+        "over",
+        "connect"
+    ],
+    "nervous": [
+        "anxious",
+        "test",
+        "difficulty",
+        "pressure",
+        "scared"
+    ],
+    "camel": [
+        "humps",
+        "desert",
+        "animal",
+        "water",
+        "cigarette"
+    ],
+    "license": [
+        "driver",
+        "car",
+        "card",
+        "permit",
+        "allow"
+    ],
+    "liberty": [
+        "freedom",
+        "statue",
+        "power",
+        "choose",
+        "decide"
+    ],
+    "shout": [
+        "yell",
+        "loud",
+        "speak",
+        "angry",
+        "danger"
+    ],
+    "monster": [
+        "scary",
+        "green",
+        "alien",
+        "zombie",
+        "create"
+    ],
+    "wheelchair": [
+        "cripple",
+        "handicapped",
+        "legs",
+        "old",
+        "elderly"
+    ],
+    "tornado": [
+        "storm",
+        "dorothy",
+        "swirl",
+        "wind",
+        "blow"
+    ],
+    "glove": [
+        "mitt",
+        "hands",
+        "baseball",
+        "o.j. simpson",
+        "acquit"
+    ],
+    "midterm": [
+        "test",
+        "exam",
+        "half",
+        "final",
+        "school"
+    ],
+    "daisy": [
+        "white",
+        "yellow",
+        "flower",
+        "duck",
+        "field"
+    ],
+    "curtain": [
+        "red",
+        "window",
+        "light",
+        "cloth",
+        "play"
+    ],
+    "firecracker": [
+        "explode",
+        "loud",
+        "red",
+        "light",
+        "holiday"
+    ],
+    "monkey": [
+        "swing",
+        "banana",
+        "zoo",
+        "brown",
+        "animal"
+    ],
+    "shark": [
+        "teeth",
+        "ocean",
+        "hammerhead",
+        "blood",
+        "jaws"
+    ],
+    "egg roll": [
+        "spring",
+        "vegetable",
+        "round",
+        "china",
+        "food"
+    ],
+    "headache": [
+        "pound",
+        "beat",
+        "medicine",
+        "sick",
+        "rush"
+    ],
+    "prisoner": [
+        "jail",
+        "convict",
+        "murder",
+        "crime",
+        "bad"
+    ],
+    "caterpillar": [
+        "crawl",
+        "insect",
+        "legs",
+        "tree",
+        "butterfly"
+    ],
+    "paris": [
+        "romance",
+        "shopping",
+        "eiffel",
+        "tower",
+        "french"
+    ],
+    "exchange student": [
+        "travel",
+        "study",
+        "abroad",
+        "experience",
+        "foreign"
+    ],
+    "london student": [
+        "big ben",
+        "england",
+        "europe",
+        "capital",
+        "u.k."
+    ],
+    "toothbrush": [
+        "paste",
+        "shave",
+        "every",
+        "dentist",
+        "cavity"
+    ],
+    "chemistry": [
+        "physics",
+        "chemicals",
+        "school",
+        "science",
+        "subject"
+    ],
+    "cookbook": [
+        "food",
+        "how to kitchen",
+        "manual",
+        "guide",
+        "instructions"
+    ],
+    "fairy tale": [
+        "prince",
+        "princess",
+        "magic",
+        "queen",
+        "story"
+    ],
+    "literature": [
+        "works",
+        "american",
+        "british",
+        "books",
+        "written"
+    ],
+    "globe": [
+        "map",
+        "world",
+        "sphere",
+        "atlas",
+        "earth"
+    ],
+    "peaceful": [
+        "harmony",
+        "calm",
+        "quiet",
+        "tranquil",
+        "violent"
+    ],
+    "unfair": [
+        "unjust",
+        "fair",
+        "equal",
+        "just",
+        "unreasonable"
+    ],
+    "normal": [
+        "strange",
+        "standard",
+        "typical",
+        "status quo",
+        "weird"
+    ],
+    "original": [
+        "first",
+        "unique",
+        "special",
+        "standard",
+        "early"
+    ],
+    "biology": [
+        "science",
+        "subject",
+        "life",
+        "school",
+        "chemistry"
+    ],
+    "thrifty": [
+        "cheap",
+        "spend",
+        "money",
+        "stingy",
+        "economical"
+    ],
+    "tragedy": [
+        "terrible",
+        "sad",
+        "victim",
+        "disaster",
+        "catastrophe"
+    ],
+    "charge": [
+        "fee",
+        "money",
+        "transaction",
+        "bank",
+        "bill"
+    ],
+    "sell": [
+        "product",
+        "service",
+        "buy",
+        "store",
+        "market"
+    ],
+    "debt": [
+        "money",
+        "owe",
+        "loan",
+        "borrow",
+        "bill"
+    ],
+    "growth": [
+        "expand",
+        "increase",
+        "success",
+        "bigger",
+        "progress"
+    ],
+    "competitor": [
+        "same",
+        "product",
+        "advantage",
+        "market",
+        "rival"
+    ],
+    "sales": [
+        "convince",
+        "product",
+        "buy",
+        "negotiate",
+        "selling"
+    ],
+    "raise": [
+        "salary",
+        "wage",
+        "performance",
+        "price",
+        "increase"
+    ],
+    "market": [
+        "buyer",
+        "target",
+        "sector",
+        "demographic",
+        "commerce"
+    ],
+    "convince": [
+        "persuade",
+        "believe",
+        "want",
+        "talk into",
+        "satisfy"
+    ],
+    "employer": [
+        "employee",
+        "boss",
+        "salary",
+        "business",
+        "leader"
+    ],
+    "margin": [
+        "profit",
+        "mark-up",
+        "price",
+        "cost",
+        "limit"
+    ],
+    "loss": [
+        "profit",
+        "debt",
+        "deficit",
+        "money",
+        "deprivation"
+    ],
+    "exchange": [
+        "rate",
+        "trade",
+        "return",
+        "buyer",
+        "switch"
+    ],
+    "suggest": [
+        "recommend",
+        "consider",
+        "opinion",
+        "improvement",
+        "propose"
+    ],
+    "encourage": [
+        "motivate",
+        "inspire",
+        "support",
+        "manager",
+        "stimulate"
+    ],
+    "profit": [
+        "loss",
+        "revenue",
+        "expenses",
+        "money",
+        "benefit"
+    ],
+    "supply and demand": [
+        "quantity",
+        "buyer",
+        "product",
+        "economics",
+        "seller"
+    ],
+    "feedback": [
+        "manager",
+        "survey",
+        "positive",
+        "negative",
+        "review"
+    ],
+    "borrow": [
+        "lend",
+        "interest",
+        "loan",
+        "money",
+        "use"
+    ],
+    "refuse": [
+        "no",
+        "reject",
+        "deny",
+        "accept",
+        "decline"
+    ],
+    "lend": [
+        "borrow",
+        "bank",
+        "return",
+        "interest",
+        "give"
+    ],
+    "swim": [
+        "beach",
+        "water",
+        "bathing suit",
+        "exercise",
+        "underwater"
+    ],
+    "cheese": [
+        "milk",
+        "white",
+        "pizza",
+        "sandwich",
+        "cheddar"
+    ],
+    "vacation": [
+        "trip",
+        "work",
+        "travel",
+        "beach",
+        "holiday"
+    ],
+    "weather": [
+        "rain",
+        "snow",
+        "sun",
+        "forecast",
+        "climate"
+    ],
+    "refrigerator": [
+        "food",
+        "cold",
+        "freezer",
+        "kitchen",
+        "store"
+    ],
+    "smart": [
+        "intelligent",
+        "nerd",
+        "brain",
+        "knowledge",
+        "elegant"
+    ],
+    "professor": [
+        "teacher",
+        "university",
+        "students",
+        "class",
+        "person"
+    ],
+    "invoice": [
+        "buyer",
+        "seller",
+        "payment",
+        "document",
+        "account"
+    ],
+    "refund": [
+        "return",
+        "give back",
+        "pay",
+        "complain",
+        "repayment"
+    ],
+    "inventory": [
+        "supply",
+        "goods",
+        "count",
+        "quantity",
+        "list"
+    ],
+    "interest": [
+        "profit",
+        "fee",
+        "investment",
+        "rate",
+        "curiosity"
+    ],
+    "department": [
+        "division",
+        "organization",
+        "sales",
+        "human resources",
+        "office"
+    ],
+    "budget": [
+        "money",
+        "plan",
+        "spend",
+        "period",
+        "economy"
+    ],
+    "deadline": [
+        "submit",
+        "finish",
+        "extension",
+        "task",
+        "time limit"
+    ],
+    "production": [
+        "factory",
+        "plant",
+        "goods",
+        "materials",
+        "fabrication"
+    ],
+    "stock": [
+        "bond",
+        "corporation",
+        "share",
+        "market",
+        "holding"
+    ],
+    "bond": [
+        "investment",
+        "treasury",
+        "stock",
+        "loan",
+        "corporation"
+    ],
+    "shareholder": [
+        "stockholder",
+        "owner",
+        "corporation",
+        "dividends",
+        "stocks"
+    ],
+    "retail": [
+        "walmart",
+        "mall",
+        "consumer",
+        "goods and services",
+        "amazon"
+    ],
+    "complaint": [
+        "customer service",
+        "problem",
+        "unhappy",
+        "unacceptable",
+        "call center"
+    ],
+    "guarantee": [
+        "assure",
+        "problem",
+        "defective",
+        "document",
+        "expiration"
+    ],
+    "client": [
+        "customer",
+        "services",
+        "professional",
+        "lawyer",
+        "buyer"
+    ],
+    "transaction": [
+        "deal",
+        "money",
+        "sale",
+        "product",
+        "action"
+    ],
+    "invest": [
+        "money",
+        "profit",
+        "stock",
+        "real estate",
+        "spend"
+    ],
+    "exchange rate": [
+        "currency",
+        "dollar",
+        "euro",
+        "price",
+        "coins"
+    ],
+    "currency": [
+        "money",
+        "euro",
+        "dollar",
+        "exchange rate",
+        "coins"
+    ],
+    "consensus": [
+        "agreement",
+        "everyone",
+        "vote",
+        "group",
+        "accord"
+    ],
+    "conference call": [
+        "meeting",
+        "client",
+        "presentation",
+        "listen",
+        "work"
+    ],
+    "bear": [
+        "woods",
+        "brown",
+        "black",
+        "animal",
+        "mammalia"
+    ],
+    "imported": [
+        "exported",
+        "foreign",
+        "expensive",
+        "product",
+        "customer"
+    ],
+    "time": [
+        "watch",
+        "clock",
+        "noon",
+        "midnight",
+        "stop"
+    ],
+    "television": [
+        "screen",
+        "program",
+        "watch",
+        "movies",
+        "show"
+    ],
+    "scissors": [
+        "cut",
+        "knife",
+        "school",
+        "paper",
+        "blades"
+    ],
+    "pot": [
+        "pan",
+        "kettle",
+        "black",
+        "non stick",
+        "cook"
+    ],
+    "garden": [
+        "flowers",
+        "plants",
+        "vegetables",
+        "grow",
+        "backyard"
+    ],
+    "cell phone": [
+        "talk",
+        "dial",
+        "call",
+        "speak",
+        "pocket"
+    ],
+    "oil": [
+        "cook",
+        "gas",
+        "spill",
+        "barrel",
+        "price"
+    ],
+    "plate": [
+        "circle",
+        "eat",
+        "food",
+        "hold",
+        "table"
+    ],
+    "teacher": [
+        "professor",
+        "school",
+        "class",
+        "kids",
+        "learn"
+    ],
+    "umbrella": [
+        "rain",
+        "open",
+        "wet",
+        "water",
+        "protect"
+    ],
+    "fox": [
+        "animal",
+        "tail",
+        "network",
+        "woods",
+        "jamie"
+    ],
+    "password": [
+        "username",
+        "key",
+        "email",
+        "register",
+        "sign"
+    ],
+    "panda": [
+        "bear",
+        "express",
+        "chinese food",
+        "australia",
+        "animal"
+    ],
+    "napkin": [
+        "kleenex",
+        "paper",
+        "cloth",
+        "clean",
+        "nose"
+    ],
+    "grill": [
+        "question",
+        "barbecue",
+        "burgers",
+        "chicken",
+        "corn"
+    ],
+    "potato": [
+        "sack",
+        "french fries",
+        "mashed",
+        "baked",
+        "meat"
+    ],
+    "mailbox": [
+        "deliever",
+        "usps",
+        "driveway",
+        "home",
+        "flag"
+    ],
+    "hammer": [
+        "nail",
+        "wall",
+        "hang",
+        "tool",
+        "push"
+    ],
+    "soap": [
+        "clean",
+        "dove",
+        "zest",
+        "shower",
+        "dirt"
+    ],
+    "maid": [
+        "clean",
+        "housekeeper",
+        "laundary",
+        "wealthy",
+        "rich"
+    ],
+    "glue": [
+        "sticky",
+        "elmers",
+        "white",
+        "bind",
+        "carpenter"
+    ],
+    "battery": [
+        "remote",
+        "control",
+        "plug",
+        "triple_a",
+        "power"
+    ],
+    "magazine": [
+        "subscribe",
+        "advertisement",
+        "mail",
+        "read",
+        "weekly"
+    ],
+    "zipper": [
+        "close",
+        "shut",
+        "jacket",
+        "jeans",
+        "purse"
+    ],
+    "jet ski": [
+        "ocean",
+        "water",
+        "sports",
+        "boat",
+        "pull"
+    ],
+    "parka": [
+        "rain",
+        "cold",
+        "wet",
+        "water",
+        "protect"
+    ],
+    "cowboy": [
+        "boots",
+        "horse",
+        "spurs",
+        "dallas",
+        "texas"
+    ],
+    "jelly": [
+        "sandwich",
+        "peanut butter",
+        "smuckers",
+        "jam",
+        "welch"
+    ],
+    "frame": [
+        "picture",
+        "photo",
+        "display",
+        "glasses",
+        "around"
+    ],
+    "aunt": [
+        "sister",
+        "father",
+        "mother",
+        "sibling",
+        "parent"
+    ],
+    "toast": [
+        "jelly",
+        "breakfast",
+        "carbohydrate",
+        "eat",
+        "wheat"
+    ],
+    "farmer": [
+        "milk",
+        "cow",
+        "animals",
+        "barn",
+        "food"
+    ],
+    "mushroom": [
+        "ground",
+        "eat",
+        "vegetable",
+        "portabella",
+        "smurfs"
+    ],
+    "attic": [
+        "upstairs",
+        "storage",
+        "house",
+        "home",
+        "finish"
+    ],
+    "airport": [
+        "travel",
+        "plane",
+        "transportation",
+        "bus",
+        "train"
+    ],
+    "neighbor": [
+        "live",
+        "next",
+        "house",
+        "person",
+        "street"
+    ],
+    "soccer": [
+        "pele",
+        "goal",
+        "net",
+        "feet",
+        "kick"
+    ],
+    "compass": [
+        "direction",
+        "north",
+        "south",
+        "east",
+        "west"
+    ],
+    "salt": [
+        "pepper",
+        "shaker",
+        "seasoning",
+        "restaurant",
+        "white"
+    ],
+    "thermometer": [
+        "temperature",
+        "heat",
+        "measure",
+        "fever",
+        "mercury"
+    ],
+    "mailman": [
+        "deliver",
+        "karl malone",
+        "fedex",
+        "ups",
+        "postal service"
+    ],
+    "piano": [
+        "keys",
+        "play",
+        "grand",
+        "instrument",
+        "music"
+    ],
+    "porch": [
+        "grill",
+        "house",
+        "home",
+        "deck",
+        "party"
+    ],
+    "quarter": [
+        "twenty five",
+        "penny",
+        "nickel",
+        "dime",
+        "change"
+    ],
+    "bicycle": [
+        "wheels",
+        "ride",
+        "transportation",
+        "pedal",
+        "handlebar"
+    ],
+    "screwdriver": [
+        "screw",
+        "wall",
+        "hang",
+        "tool",
+        "twist"
+    ],
+    "playground": [
+        "slide",
+        "swing set",
+        "round",
+        "park",
+        "kids"
+    ],
+    "birthday": [
+        "cake",
+        "party",
+        "candles",
+        "year",
+        "surprise"
+    ],
+    "weight": [
+        "pounds",
+        "kilograms",
+        "scale",
+        "fat",
+        "over"
+    ],
+    "hero": [
+        "save",
+        "famous",
+        "movie",
+        "rescue",
+        "novel"
+    ],
+    "jump": [
+        "rope",
+        "hop",
+        "skip",
+        "leap",
+        "hurdle"
+    ],
+    "guitar": [
+        "instrument",
+        "strum",
+        "music",
+        "acoustic",
+        "amplify"
+    ],
+    "volcano": [
+        "erupt",
+        "lava",
+        "mountain",
+        "hawaii",
+        "hot"
+    ],
+    "stapler": [
+        "clip",
+        "paper",
+        "together",
+        "bind",
+        "refill"
+    ],
+    "taxi": [
+        "cab",
+        "tip",
+        "transport",
+        "yellow",
+        "new york"
+    ],
+    "puzzle": [
+        "crossword",
+        "logic",
+        "pieces",
+        "solve",
+        "solution"
+    ],
+    "rose": [
+        "flower",
+        "red",
+        "love",
+        "romantic",
+        "date"
+    ],
+    "fruit": [
+        "apple",
+        "orange",
+        "banana",
+        "watermelon",
+        "vegetables"
+    ],
+    "queen": [
+        "bee",
+        "king",
+        "rock",
+        "drag",
+        "royalty"
+    ],
+    "faucet": [
+        "water",
+        "sink",
+        "spout",
+        "leak",
+        "handle"
+    ],
+    "soda": [
+        "coke",
+        "pop",
+        "drink",
+        "can",
+        "vending machine"
+    ],
+    "shoulder": [
+        "body",
+        "part",
+        "head",
+        "arms",
+        "carry"
+    ],
+    "snow": [
+        "white",
+        "ice",
+        "cold",
+        "rain",
+        "flake"
+    ],
+    "subway": [
+        "sandwich",
+        "shop",
+        "food",
+        "inch",
+        "jared"
+    ],
+    "waterfall": [
+        "beauty",
+        "site",
+        "nature",
+        "cliff",
+        "lake"
+    ],
+    "church": [
+        "pray",
+        "steeple",
+        "priest",
+        "catholic",
+        "christian"
+    ],
+    "calendar": [
+        "months",
+        "years",
+        "days",
+        "week",
+        "date"
+    ],
+    "goldfish": [
+        "bowl",
+        "tank",
+        "pet",
+        "simple",
+        "feed"
+    ],
+    "school bus": [
+        "yellow",
+        "transportation",
+        "kids",
+        "children",
+        "wheels"
+    ],
+    "breakfast": [
+        "eat",
+        "coffee",
+        "tea",
+        "bread",
+        "cereals"
+    ],
+    "fist": [
+        "hand",
+        "fingers",
+        "punch",
+        "no",
+        "actions"
+    ],
+    "tower": [
+        "london",
+        "guard",
+        "queen",
+        "leaning",
+        "high"
+    ],
+    "ladder": [
+        "steps",
+        "reach",
+        "higher",
+        "stand",
+        "fold"
+    ],
+    "drawer": [
+        "clothes",
+        "open",
+        "close",
+        "store",
+        "closet"
+    ],
+    "newspaper": [
+        "times",
+        "read",
+        "tribune",
+        "daily",
+        "articles"
+    ],
+    "cake": [
+        "birthday",
+        "bake",
+        "circle",
+        "ice cream",
+        "frosting"
+    ],
+    "tip": [
+        "cab",
+        "taxi",
+        "waiter",
+        "restaurant",
+        "money"
+    ],
+    "money": [
+        "buy",
+        "cash",
+        "bank",
+        "loot",
+        "salary"
+    ],
+    "sneeze": [
+        "nose",
+        "sick",
+        "ill",
+        "pepper",
+        "cough"
+    ],
+    "paper": [
+        "write",
+        "piece",
+        "pencil",
+        "pen",
+        "print"
+    ],
+    "mask": [
+        "jim carey",
+        "hide",
+        "halloween",
+        "wear",
+        "ski"
+    ],
+    "whistle": [
+        "referee",
+        "blow",
+        "sound",
+        "umpire",
+        "mouth"
+    ],
+    "wallet": [
+        "money",
+        "cash",
+        "credit cards",
+        "license",
+        "purse"
+    ],
+    "elbow": [
+        "body",
+        "part",
+        "joint",
+        "knee",
+        "arm"
+    ],
+    "razor": [
+        "shave",
+        "gillette",
+        "face",
+        "blade",
+        "hair"
+    ],
+    "circus": [
+        "ring",
+        "tent",
+        "clown",
+        "trapeze",
+        "ringling"
+    ],
+    "party": [
+        "celebrate",
+        "birthday",
+        "new years",
+        "fun",
+        "weekend"
+    ],
+    "roof": [
+        "upstairs",
+        "rain",
+        "house",
+        "home",
+        "shingles"
+    ],
+    "magnet": [
+        "metal",
+        "conduct",
+        "electric",
+        "stick",
+        "together"
+    ],
+    "museum": [
+        "art",
+        "science",
+        "history",
+        "artifacts",
+        "display"
+    ],
+    "children": [
+        "kids",
+        "little",
+        "people",
+        "young",
+        "youth"
+    ],
+    "sponge": [
+        "dish",
+        "soap",
+        "clean",
+        "bob",
+        "absorb"
+    ],
+    "unicycle": [
+        "circus",
+        "bicycle",
+        "artist",
+        "wheel",
+        "show"
+    ],
+    "rope": [
+        "cord",
+        "string",
+        "tie",
+        "tug",
+        "secure"
+    ],
+    "helium": [
+        "balloon",
+        "float",
+        "funny",
+        "talk",
+        "tank"
+    ],
+    "sister": [
+        "brother",
+        "father",
+        "mother",
+        "sibling",
+        "parent"
+    ],
+    "wrench": [
+        "bolt",
+        "wall",
+        "hang",
+        "tool",
+        "twist"
+    ],
+    "storm": [
+        "wet",
+        "water",
+        "drizzle",
+        "pour",
+        "umbrella"
+    ],
+    "tape": [
+        "scotch",
+        "duct",
+        "player",
+        "cd",
+        "music"
+    ],
+    "penny": [
+        "lucky",
+        "coin",
+        "change",
+        "nickel",
+        "dime"
+    ],
+    "rice": [
+        "wheat",
+        "grain",
+        "food",
+        "asia",
+        "white"
+    ],
+    "highway": [
+        "road",
+        "street",
+        "freeway",
+        "life",
+        "drive"
+    ],
+    "great grandmother": [
+        "generation",
+        "dad",
+        "mom",
+        "children",
+        "parent"
+    ],
+    "citigroup": [
+        "bank",
+        "mortgage",
+        "loan",
+        "stock",
+        "broker"
+    ],
+    "empire state building": [
+        "tallest",
+        "america",
+        "new york",
+        "skyscraper",
+        "building"
+    ],
+    "checkmate": [
+        "chess",
+        "king",
+        "queen",
+        "over",
+        "game"
+    ],
+    "permanent marker": [
+        "write",
+        "heavy",
+        "pen",
+        "sharpie",
+        "draw"
+    ],
+    "typewriter": [
+        "computer",
+        "fast",
+        "write",
+        "keyword",
+        "electronic"
+    ],
+    "parking attendant": [
+        "lot",
+        "cars",
+        "drive",
+        "daily",
+        "monthly"
+    ],
+    "billy joel": [
+        "piano man",
+        "musician",
+        "singer",
+        "blind",
+        "fire"
+    ],
+    "tennis shoes": [
+        "gym",
+        "sneakers",
+        "running",
+        "feet",
+        "wear"
+    ],
+    "giggle": [
+        "laugh",
+        "joke",
+        "riddle",
+        "funny",
+        "smile"
+    ],
+    "gold glove": [
+        "baseball",
+        "defense",
+        "fielding",
+        "position",
+        "player"
+    ],
+    "bishop": [
+        "chess",
+        "piece",
+        "rook",
+        "king",
+        "diagnol"
+    ],
+    "dartmouth": [
+        "tough",
+        "university",
+        "college",
+        "study",
+        "admission"
+    ],
+    "attorney": [
+        "lawyer",
+        "law",
+        "represent",
+        "right",
+        "protect"
+    ],
+    "trapper keeper": [
+        "keep",
+        "papers",
+        "folder",
+        "store",
+        "school"
+    ],
+    "jack daniels": [
+        "whiskey",
+        "tennessee",
+        "coke",
+        "drink",
+        "alcohol"
+    ],
+    "times square": [
+        "new york",
+        "broadway",
+        "ball",
+        "year",
+        "people"
+    ],
+    "dry erase board": [
+        "write",
+        "wall",
+        "hang",
+        "chalkboard",
+        "teach"
+    ],
+    "helipad": [
+        "helicopter",
+        "airplane",
+        "takeoff",
+        "landing",
+        "depart"
+    ],
+    "rattlesnake": [
+        "animal",
+        "long",
+        "cobra",
+        "venom",
+        "poison"
+    ],
+    "yale": [
+        "tough",
+        "university",
+        "college",
+        "study",
+        "admission"
+    ],
+    "caesar": [
+        "king",
+        "ruler",
+        "pizza",
+        "little",
+        "empire"
+    ],
+    "navy pier": [
+        "chicago",
+        "tourist",
+        "attraction",
+        "ferris wheel",
+        "lake"
+    ],
+    "sears tower": [
+        "tallest",
+        "america",
+        "chicago",
+        "skyscraper",
+        "building"
+    ],
+    "northwestern": [
+        "tough",
+        "university",
+        "college",
+        "study",
+        "admission"
+    ],
+    "sting ray": [
+        "steve irwin",
+        "flap",
+        "ocean",
+        "poison",
+        "water"
+    ],
+    "leprachaun": [
+        "gold",
+        "colors",
+        "clover",
+        "rainbow",
+        "rain"
+    ]
+}

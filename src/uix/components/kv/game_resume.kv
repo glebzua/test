@@ -1,0 +1,60 @@
+<GameResume>:
+    game_level: ''
+    num_players: ''
+    num_jumps: ''
+    round_time: ''
+    points: ''
+    #pos_hint: {"center_x": .5, "center_y": .08}
+    cols: 1
+    padding: [dp(30), dp(35), dp(30), dp(35)]
+    MDBoxLayout:
+        MDLabel:
+            pos_hint: {"center_x": .6, "center_y": .8}
+            text: app.i18n._("COMMON_GAME_LEVEL")
+            halign: "left"
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .8}
+            text: root.game_level
+            halign: "right"
+            size_hint_x: 0.75
+    MDBoxLayout:
+        MDLabel:
+            pos_hint: {"center_x": .6, "center_y": .8}
+            text: app.i18n._("COMMON_NUM_TEAMS")
+            halign: "left"
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .8}
+            text: root.num_players
+            halign: "right"
+            size_hint_x: 0.35
+    MDBoxLayout:
+        MDLabel:
+            pos_hint: {"center_x": .6, "center_y": .7}
+            text: app.i18n._("COMMON_NUM_JUMPS")
+            halign: "left"
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .7}
+            text: root.num_jumps
+            halign: "right"
+            size_hint_x: 0.35
+    MDBoxLayout:
+        MDLabel:
+            pos_hint: {"center_x": .6, "center_y": .6}
+            text: app.i18n._("COMMON_ROUND_TIME")
+            halign: "left"
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .6}
+            text: root.round_time
+            halign: "right"
+            size_hint_x: 0.5
+    MDBoxLayout:
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .6}
+            text: app.i18n._("COMMON_POINTS")
+            halign: "left"
+        MDLabel:
+            pos_hint: {"center_x": .4, "center_y": .6}
+            text: root.points
+            halign: "right"
+            size_hint_x: 0.35
+

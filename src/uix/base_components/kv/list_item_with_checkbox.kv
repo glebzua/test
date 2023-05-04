@@ -1,0 +1,10 @@
+<ListItemWithCheckbox>:
+    text: self.name
+    secondary_text: self.description
+    on_release: root.details(root.name, root.description, root.image)
+
+    LeftImage:
+        icon: root.image
+
+    IconRightWidget:
+        icon: root.icon

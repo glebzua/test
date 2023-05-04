@@ -1,0 +1,74 @@
+#:import KMDFillRoundFlatButton uix.base_components.kmd_fill_round_flat_button
+#:import KMDCard uix.base_components.kmd_card
+#:import GameResume uix.components.game_resume
+
+
+<GamePreScreen>:
+    title: ''
+    image: ''
+    MDBoxLayout:
+        orientation: "vertical"
+        id: logo_container
+        padding: dp(25)
+        Image:
+            source: root.image
+            pos_hint: {"center_x": .5, "center_y": 0.75}
+            size_hint: .7, .7
+            keep_ratio: True
+
+        MDBoxLayout:
+            pos_hint: {"center_x": .5, "y": .55}
+            orientation: "vertical"
+            padding: dp(10)
+            adaptive_height: True
+            spacing: dp(20)
+            size_hint_x: .7
+            canvas.before:
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+
+            MDLabel:
+                text: root.title
+                bold: True
+                size_hint_y: None
+                height: self.texture_size[1]
+                font_style: "H5"
+                halign: "center"
+                valign: "center"
+
+        GameResume:
+            game_level: root.game_level
+            num_players: root.num_players
+            num_jumps: root.num_jumps
+            round_time: root.round_time
+            points: root.points
+
+        MDBoxLayout:
+            orientation: "vertical"
+            spacing: "10dp"
+            padding: [dp(10), dp(10), dp(10), dp(10)]
+            adaptive_size: True
+            pos_hint: {"center_x": 0.5, "y": 0.1}
+            KMDFillRoundFlatButton:
+                text: app.i18n._("COMMON_BACK_HOME_BUTTON")
+                md_bg_color: 0.3, 0.3, 0.3, 1
+                radius: [dp(10), dp(10), dp(10), dp(10)]
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                on_release: root.to_home()
+
+            KMDCard:
+                id: play_button
+                md_bg_color: 0.1, 0.2, 0.8, 1
+                radius: [dp(10), dp(10), dp(10), dp(10)]
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                on_release: root.to_game()
+                size_hint: None, None
+                width: root.width * 0.5
+                height: root.height * 0.1
+                MDLabel:
+                    halign: "center"
+                    text: app.i18n._("PREGAME_PLAY_BUTTON")
+                    bold: True
+                    theme_text_color: "Custom"
+                    text_color: 1, 1, 1, 1

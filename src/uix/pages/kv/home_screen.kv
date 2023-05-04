@@ -1,0 +1,91 @@
+#:import ElementCard uix.components.element_card
+#:import KMDIconSquaredButton uix.base_components.kmd_icon_squared_button
+#:import KMDFlatButton uix.base_components.kmd_flat_button
+#:import KModalViem uix.base_components.kmodal_view
+#:import TitleAndTextContent uix.components.title_and_text_content
+
+
+<HomeScreen>
+    FitImage:
+        id: background_image
+        size_hint: None, None
+        size: root.size
+        source: "assets/images/home/home_background.jpg"
+
+    MDBoxLayout:
+        orientation: "vertical"
+        MDRelativeLayout:
+            id: logo_container
+            size_hint_y: .25
+            padding: dp(25)
+            MDBoxLayout:
+                orientation:"vertical"
+                Image:
+                    source: 'assets/images/home/logo.png'
+                    keep_ratio: True
+                    opacity: 1
+                    size_hint_y: None
+                    height: logo_container.height - dp(20)
+                    pos_hint: {"center_x": .5, "center_y": .5}
+
+        MDGridLayout:
+            size_hint: .75, .75
+            pos_hint: {"center_x": .5, "center_y": .5}
+            cols:1
+            padding:[dp(15),dp(15),dp(15),dp(35)]
+            spacing:dp(15)
+            ElementCard:
+                md_bg_color: 210/255, 158/255, 0/255, 1
+                image:"assets/images/home/darts_easy.png"
+                text: app.i18n._("HOME_EASY_LEVEL")
+                on_release: root.set_game_level("easy")
+
+            ElementCard:
+                md_bg_color: 205/255, 92/255, 0/255, 1
+                image:"assets/images/home/darts_medium.png"
+                text: app.i18n._("HOME_MEDIUM_LEVEL")
+                on_release: root.set_game_level("medium")
+
+            ElementCard:
+                md_bg_color: 130/255, 95/255, 30/255, 1
+                image: "assets/images/home/darts_hard.png"
+                text: app.i18n._("HOME_HARD_LEVEL")
+                on_release: root.set_game_level("hard")
+
+        MDBoxLayout:
+            spacing: "10dp"
+            padding: [dp(10), dp(10), dp(10), dp(10)]
+            adaptive_size: True
+            pos_hint: {"center_x": .5, "center_y": .5}
+            KMDIconSquaredButton:
+                icon: "assets/images/icons/trophy.png"
+                #md_bg_color: 210/255, 158/255, 0/255, 1
+                md_bg_color: 0.9, 0.9, 0.9, 1
+                theme_text_color: "Custom"
+                on_release:
+                    root.manager.go_to_screen('trophies', direction='left')
+
+            KMDIconSquaredButton:
+                id: history
+                icon: "assets/images/icons/to-do-list.png"
+                #md_bg_color: 210/255, 158/255, 0/255, 1
+                md_bg_color: 0.9, 0.9, 0.9, 1
+                theme_text_color: "Custom"
+                on_release:
+                    root.manager.go_to_screen('history', direction='left')
+
+            KMDIconSquaredButton:
+                icon: "assets/images/icons/value.png"
+                pos_hint: {"center_x": .5, "center_y": .5}
+                md_bg_color: 0.9, 0.9, 0.9, 1
+                theme_text_color: "Custom"
+                on_release: root.show_rate_us_dialog()
+
+            KMDIconSquaredButton:
+                id: settings
+                icon: "assets/images/icons/list.png"
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                md_bg_color: 0.9, 0.9, 0.9, 1
+                theme_text_color: "Custom"
+                on_release:
+                    root.manager.go_to_screen('settings', direction='left')

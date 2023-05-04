@@ -1,0 +1,18 @@
+<TextTermsPolicy>
+    orientation: "vertical"
+    padding: [dp(10), dp(20), dp(10), dp(20)]
+    MDLabel:
+        size_hint_y: 0.15
+        text: "Terms & Policy"
+        font_style: "H5"
+        bold: True
+    ScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
+        MDLabel:
+            id: label_dialog
+            text: app_content_strings["terms_and_policies"]
+            text_size: self.width, None
+            size_hint: 1, None
+            height: self.texture_size[1]
+            markup: True
